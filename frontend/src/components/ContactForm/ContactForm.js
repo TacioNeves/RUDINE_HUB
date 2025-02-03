@@ -47,8 +47,7 @@ const ContactUsForm = () => {
                 <div>
                   <h1 className="address-heading">Address</h1>
                   <p className="">
-                    12th floor Brooklyn Tower, Next to YMCA club, SG Highway,
-                    Ahmedabad 380015
+                    Matale, Central 21000, LK
                   </p>
                 </div>
               </li>
@@ -60,7 +59,7 @@ const ContactUsForm = () => {
                       href="mailto:info@digitalpulsemarketing.com"
                       className="mail"
                     >
-                      testnodemailerrai@gmail.com
+                      manager@rudine.pro
                     </a>
                   </p>
                 </div>
