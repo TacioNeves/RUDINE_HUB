@@ -37,6 +37,7 @@ const ServicesPage = () => {
     fetch(`${api}/services`)
       .then((response) => response.json())
       .then((data) => {
+        console.log(data);
         setServices(data);
         setLoading(false);
       })

@@ -21,7 +21,7 @@
 
 #scrollDown {
   position: absolute;
-  bottom: 30px;
+  bottom: -25%;
   left: 50%;
   transform: translateX(-50%);
   cursor: pointer;
@@ -101,3 +101,6 @@ font-size: 13px;
   font-size: 1rem;
 }
 
+.py-5 {
+  padding-top: 10rem !important;
+}

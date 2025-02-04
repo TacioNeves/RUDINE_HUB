@@ -48,11 +48,12 @@ const LandingPage = () => {
             </Col>
             <Col md={1}></Col>
             <Col md={5} className="hero-img">
-              <img
+              {/* <img
                 src="https://res.cloudinary.com/dpcfyn3si/image/upload/v1706954714/uploads/rai/cygmbowumcgiihfqj7vq.png"
                 width="90%"
                 alt="web-img"
-              />
+              /> */}
+              <img src="../1_HYAS_0060_WEB_HEADER_UPDATE_620x490_v2.webp" alt="RUDINE Productions img" />
             </Col>
           </Row>
           <div
@@ -71,25 +72,31 @@ const LandingPage = () => {
           <h2 className="mb-5">What We Do</h2>
           <Row className="justify-content-center">
             {/* Service Card 1 */}
-            <Col md={4} className="mb-4">
+            <Col md={6} className="mb-6">
               <div className="service-card">
-                <h3>Search Engine Optimization</h3>
+                <h3>Staff Augmentation & On-Demand Teams</h3>
                 <p>
-                  We help you improve your Google ranking and increase your
-                  organic (non-paid) website traffic. SEO is more than just
-                  incorporating keywords and we can help to optimize all elements.
+                  Looking for software engineers with a specific skill set to fill talent gaps? Get experienced and scalable Dedicated Software Development Teams hand-picked to handle your IT Project Delivery within a given time frame.
+                  <br/><br/>
+                  <img src="../Elixer.svg" width="7%" />&nbsp;&nbsp;
+                  <img src="../Magento.svg" width="7%" />&nbsp;&nbsp;
+                  <img src="../MongoDB.svg" width="7%" />&nbsp;&nbsp;
+                  <img src="../NodeJS.svg" width="7%" />
                 </p>
               </div>
             </Col>
 
             {/* Service Card 2 */}
-            <Col md={4} className="mb-4">
+            <Col md={6} className="mb-6">
               <div className="service-card">
-                <h3>Search Engine Advertising</h3>
+                <h3>Ecommerce</h3>
                 <p>
-                  Search engine advertising, also known as pay-per-click
-                  advertising, helps you reach new customers and guarantees a
-                  consistent traffic flow to your website.
+                  Partner with a trusted eCommerce website development company to scale your business online. We create high conversion websites and also provide managed ecommerce services for continued operations.
+                  <br/><br/>
+                  <img src="../open-cart.svg" width="7%" />&nbsp;&nbsp;
+                  <img src="../Magento.svg" width="7%" />&nbsp;&nbsp;
+                  <img src="../shopify-svgrepo-com.svg" width="7%" />&nbsp;&nbsp;
+                  <img src="../woocommerce.svg" width="7%" />
                 </p>
               </div>
             </Col>
@@ -97,12 +104,9 @@ const LandingPage = () => {
             {/* Service Card 3 */}
             <Col md={4} className="mb-4">
               <div className="service-card">
-                <h3>Web Development & Design</h3>
+                <h3>Software Development</h3>
                 <p>
-                  Websites are the essence of your online presence. We will create
-                  a functional website that is customized for your business and
-                  drives results. All of our websites include SEO and lead
-                  generation tools.
+                  Whether you have a greenfield project or an existing one, Dezital is your one-stop service provider for all your software development needs. We do web, mobile and desktop development as per your requirements.
                 </p>
               </div>
             </Col>
@@ -131,12 +135,30 @@ const LandingPage = () => {
             </Col>
 
             {/* Service Card 6 */}
-            <Col md={4} className="mb-4">
+            <Col md={6} className="mb-6">
               <div className="service-card">
                 <h3>Digital Marketing Strategy</h3>
                 <p>
-                  Get your own digital marketing strategy built from scratch.
-                  Schedule a free consultation to get started.
+                  Present your brand to the world and unleash your reach and potential to the fullest. Partner with a full service digital marketing agency who can ignite growth for your business on FB, Instagram, LinkedIN and many other.
+                  <br/><br/>
+                  <img src="../Facebook.svg" width="7%" />&nbsp;&nbsp;
+                  <img src="../Instagram.svg" width="7%" />&nbsp;&nbsp;
+                  <img src="../Linkedin.svg" width="7%" />
+                </p>
+              </div>
+            </Col>
+
+            <Col md={6} className="mb-6">
+              <div className="service-card">
+                <h3>Blockchain Development</h3>
+                <p>
+                  We help businesses leverage decentralized networks and software solutions built on blockchain technology to take it to whole new level of trust, security, transparency, and the traceability into their processes.
+                  <br/><br/>
+                  <img src="../Ethereum.svg" width="7%" />&nbsp;&nbsp;
+                  <img src="../Hyperledger.svg" width="7%" />&nbsp;&nbsp;
+                  <img src="../Mist.svg" width="7%" />&nbsp;&nbsp;
+                  <img src="../Simplycity.svg" width="7%" />&nbsp;&nbsp;
+                  <img src="../Solidity.svg" width="7%" />
                 </p>
               </div>
             </Col>
@@ -151,7 +173,7 @@ const LandingPage = () => {
       </section>
 
       {/* Blog Section */}
-      <section id="blogs" className="blog-section text-center py-5">
+      <section id="blogs" className="blog-section text-center py-3">
         <Container>
           <h2 className="text-center mb-4">Latest Blogs</h2>
           <Row className="mb-4">
